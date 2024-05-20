@@ -1,0 +1,10 @@
+<webscript>
+    <shortname>Hello World Sample Webscript</shortname>
+    <description>Hands back a greeting</description>
+    <url>/sample/download</url>
+    <url>/sample/download?nodeRef={nodeRef}&amp;x={x}&amp;y={y}&amp;width={width}&amp;height={height}&amp;chkpages={chkpages}</url>
+    <authentication>user</authentication>
+    <transaction allow="readwrite">required</transaction>
+    <format default="html"></format>
+    <lifecycle>sample</lifecycle>    
+</webscript>

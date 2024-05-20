@@ -1,0 +1,9 @@
+<webscript>
+    <shortname>Hello World Sample Webscript</shortname>
+    <description>Hands back a greeting</description>
+    <url>/sample/mostrarForm?nodeRef={node.nodeRef}</url>
+    <authentication>user</authentication>
+    <transaction allow="readwrite">required</transaction>
+    <format default="html"></format>
+    <lifecycle>sample</lifecycle>    
+</webscript>
